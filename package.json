@@ -1,0 +1,33 @@
+{
+  "name": "dokku-ghost",
+  "version": "1.0.0",
+  "description": "Run Ghost on Dokku",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "npm install -g knex-migrator && npm install && knex-migrator init --mgpath node_modules/ghost || true"
+  },
+  "engines": {
+    "node": "^4.5.0 || ^6.9.0 || ^8.9.0"
+  },
+  "author": "Sherman K",
+  "homepage": "https://github.com/shrmnk/dokku-ghost",
+  "keywords": [
+    "ghost",
+    "blog",
+    "cms",
+    "dokku",
+    "herokuish"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shrmnk/dokku-ghost.git"
+  },
+  "bugs": "https://github.com/shrmnk/dokku-ghost/issues",
+  "contributors": "https://github.com/shrmnk/dokku-ghost/graphs/contributors",
+  "license": "MIT",
+  "dependencies": {
+    "ghost": "^1.20.0"
+  }
+}
