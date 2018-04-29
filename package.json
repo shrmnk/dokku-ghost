@@ -28,6 +28,7 @@
   "contributors": "https://github.com/shrmnk/dokku-ghost/graphs/contributors",
   "license": "MIT",
   "dependencies": {
-    "ghost": "^1.20.2"
+    "ghost": "^1.20.2",
+    "hoek": "~> 4.2.1"
   }
 }
